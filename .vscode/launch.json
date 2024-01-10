@@ -1,0 +1,36 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "indexed_sample01",
+            "url": "file:///${workspaceFolder}/indexed_db/sample01.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "file_sample01",
+            "url": "file:///${workspaceFolder}/file_api/sample01.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "file_sample03",
+            "url": "file:///${workspaceFolder}/file_api/sample03.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "file_sample04",
+            "url": "file:///${workspaceFolder}/file_api/sample04.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
